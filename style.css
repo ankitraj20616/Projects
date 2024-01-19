@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 255, 255, 0.384);
+}
+.Image{
+    width: 320px;
+    border-radius: 10px;
+}
+.card{
+    padding: 10px;
+    width: 321px;
+    height: 428px;
+    position: absolute;
+    top: 55px;
+    left: 500px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    background-color: white;
+    
+
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    background-color: white;
+
+}
+li{
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    background-color: white;
+    font-size: small;
+    color: rgba(0, 0, 0, 0.61);
+}
+.cardHeading{
+    margin: 10px;
+    font-size: x-large;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    background-color: white;
+}
+.readMore{
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    border-color: azure;
+    position: relative;
+    top: 10px;
+    left: 30%;
+}
+.content{
+    background-color: white;
+}
